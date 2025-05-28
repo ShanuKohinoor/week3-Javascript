@@ -105,7 +105,6 @@ var m=6;
 
 //JavaScript Data Types - Primitive Data Types, Non-Primitive (Reference) Data Types
 
-
      // A) Primitive Data type:-
           // 1. Can hold only single value.
           // 2. Are immutable:- their values once assigned cannot be change.
@@ -249,6 +248,13 @@ var m=6;
             let toothPain = true;
             let advice = toothPain ? "Advise dental X-ray." : "No X-ray needed.";
             console.log(advice);  // Advise dental X-ray
+
+
+            // Eg 2:- 
+               let x = 5;
+               let y= x !=5 ? 10 : x; // Here,check if x=5 or !=5, if x !=5, print 10. otherwise print value of x.
+               console.log(y);
+
 
 // Typeof Operator:- To check which data type is.
          let patientName1 = "Fatima";
